@@ -1,5 +1,5 @@
 const Navigation = () => {
-    return (
+	return (
 		<nav className="navbar">
 			<div className="container nav-container">
 				<div className="name">Cats.</div>
@@ -11,13 +11,12 @@ const Navigation = () => {
 						<a href="#link2">Oferta</a>
 					</li>
 					<li className="menu-item">
-						<a href="#">Kontakt</a>
+						<a href="/#">Kontakt</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+	);
+};
 
-    );
-  };
-  
-  export default Navigation;
+export default Navigation;

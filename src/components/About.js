@@ -1,8 +1,11 @@
-import forest from "../photo/forest.jpg"
+import forest from "../photo/forest.jpg";
 
 const About = () => {
 	return (
-        <header className="header-baner" style={{ backgroundImage: `url(${forest})` }}>
+		<header
+			className="header-baner"
+			style={{ backgroundImage: `url(${forest})` }}
+		>
 			<div className="container">
 				<div className="header-box">
 					<h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
@@ -10,7 +13,7 @@ const About = () => {
 					<a href="#link2">Oferta</a>
 				</div>
 			</div>
-        </header>
+		</header>
 	);
 };
 
