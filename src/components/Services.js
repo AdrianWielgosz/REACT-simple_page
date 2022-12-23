@@ -1,5 +1,5 @@
 import servicesList from "../data/servicesList";
-import ServiceItem from "./servicesItem";
+import ServicesItem from "./ServicesItem";
 
 const Services = () => {
 	return (
@@ -10,7 +10,7 @@ const Services = () => {
 				</div>
 				<div className="market-box">
 					{servicesList.map((item, index) => {
-						return <ServiceItem item={item} key={index} />;
+						return <ServicesItem item={item} key={index} />;
 					})}
 				</div>
 			</div>

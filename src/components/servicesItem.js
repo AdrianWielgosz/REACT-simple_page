@@ -1,4 +1,4 @@
-const serviceItem = (props) => {
+const ServicesItem = (props) => {
 	let itemClasses = ["offer"];
 	if (props.item.isNew) {
 		itemClasses = [...itemClasses, "new"];
@@ -7,9 +7,9 @@ const serviceItem = (props) => {
 	return (
 		<div className={itemClasses.join(" ")}>
 			<h3>{props.item.name}</h3>
-			<span>{props.item.info}</span>
+			{props.item.isNew && <span>NOWOŚĆ</span>}
 		</div>
 	);
 };
 
-export default serviceItem;
+export default ServicesItem;

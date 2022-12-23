@@ -161,7 +161,6 @@ footer {
 	font-weight: 700;
 	color: #fff;
 	padding: 5px;
-	height: 20px;
 }
 .foot-text {
 	text-align: center;
@@ -183,11 +182,11 @@ footer {
 	.worker {
 		display: table-cell;
 	}
+	.worker:nth-child(2n + 1) {
+		text-align: right;
+	}
 	.eclipse {
 		margin-bottom: 20px;
-	}
-	.text p {
-		margin-right: 60px;
 	}
 	.market-box {
 		display: flex;
